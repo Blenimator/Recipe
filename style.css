@@ -11,7 +11,7 @@
 body {
     /* background-color:  #F3E5D8; */
     background-color: var(--bg);
-    max-width: 1440px;
+    max-width: 960px;
     margin: 0 auto;
     display: flex;
     align-content: center;
