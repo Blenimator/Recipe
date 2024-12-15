@@ -5,6 +5,7 @@
     --pink: #6A3E54;
     --light_pink: #FFF7FC;
     --bg: #F3E5D8;
+    --text: #454545;
 }
 
 body {
@@ -12,13 +13,14 @@ body {
     background-color: var(--bg);
     max-width: 960px;
     margin: 0 auto;
+}
 
+html{
     font-family: "Outfit", serif;
     font-weight: 400;
     font-style: normal;
-    color: hsl(0, 0%, 27%);
+    color: #454545;
 }
-
 h1, h2{
     /* color: hsl(12, 40%, 35%); */
     color: var(--brown);
@@ -33,10 +35,12 @@ ul li::marker{
 
 }
 ol li::marker{
-    color: hsl(330, 26%, 33%);
+    color: var(--brown);
+    font-weight: 800;
 }
 
 li{
+
     padding: 6px;
 }
 
@@ -47,7 +51,6 @@ table{
 
 td{
     border-bottom: 1px solid #ddd;
-    /* text-align: center; */
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 32px;
@@ -59,7 +62,7 @@ td:nth-child(2){
 }
 
 hr{
-    color: rgb(165, 165, 165);
+    color: rgba(0, 0, 0, 0.1);
     
 }
 .whiteContainer{
