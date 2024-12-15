@@ -11,8 +11,10 @@
 body {
     /* background-color:  #F3E5D8; */
     background-color: var(--bg);
-    max-width: 960px;
+    max-width: 1440px;
     margin: 0 auto;
+    display: flex;
+    align-content: center;
 }
 
 html{
@@ -20,7 +22,9 @@ html{
     font-weight: 400;
     font-style: normal;
     color: #454545;
+    line-height: 1.5;
 }
+
 h1, h2{
     /* color: hsl(12, 40%, 35%); */
     color: var(--brown);
@@ -32,21 +36,24 @@ h1, h2{
 
 ul li::marker{
     color: hsl(330, 26%, 33%);
-
 }
+
 ol li::marker{
     color: var(--brown);
     font-weight: 800;
 }
 
 li{
-
     padding: 6px;
 }
 
 table{
     width: 100%;
     padding: 10px;
+}
+
+table tr:last-child td {
+    border-bottom: none;
 }
 
 td{
@@ -65,12 +72,12 @@ hr{
     color: rgba(0, 0, 0, 0.1);
     
 }
-.whiteContainer{
+.contentContainer{
     background-color: white;
     margin-top: 102px;
     margin-bottom: 102px;
     border-radius: 32px;
-    padding: 32px;
+    padding: 48px;
 }
 .center{
     display: block;
@@ -78,7 +85,7 @@ hr{
     border-radius: 16px;
 }
 
-.prepTime{
+.prepTimeContainer{
     margin-top: 32px;
     background-color: hsl(322, 100%, 98%);
     border-radius: 8px;
